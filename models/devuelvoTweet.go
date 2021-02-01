@@ -10,6 +10,6 @@ import (
 type DevuelvoTweets struct {
 	ID        primitive.ObjectID `bson:"_id" json:"_id,omitemty"`
 	UsuarioID string             `bson:"usuarioid" json:"usuarioId,omitemty"`
-	Mensaje   string             `bson:"mesaje" json:"mensaje,omitemty"`
+	Mensaje   string             `bson:"mensaje" json:"mensaje,omitemty"`
 	Fecha     time.Time          `bson:"fecha" json:"fecha,omitemty"`
 }
